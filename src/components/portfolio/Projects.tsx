@@ -18,6 +18,14 @@ const projects = [
     tech: ["Python", "SQL", "Power BI", "Excel"],
     tag: "Data Analytics",
   },
+  {
+    n: "03",
+    title: "Personal Portfolio Website",
+    description:
+      "Designed and developed a personal portfolio site showcasing projects, skills, and technical experience with a focus on responsive design, usability, and professional presentation.",
+    tech: ["HTML", "CSS", "JavaScript", "Framer"],
+    tag: "Design & Build",
+  },
 ];
 
 export function Projects() {
