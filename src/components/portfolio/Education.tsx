@@ -15,18 +15,22 @@ export function Education() {
           </div>
           <div>
             <h3 className="text-lg font-semibold text-foreground">
-              Bachelor of Technology (B.Tech)
+              B.Tech in Information Technology
             </h3>
             <p className="text-sm text-muted-foreground mt-1">
-              Information Technology
+              Vidyalankar Institute of Technology, Mumbai
+            </p>
+            <p className="text-xs text-muted-foreground mt-1">
+              Jun 2023 – Present
             </p>
           </div>
         </div>
         <div className="md:text-right">
           <div className="text-xs uppercase tracking-widest text-primary font-medium">
-            Expected Graduation
+            CGPA
           </div>
-          <div className="text-2xl font-semibold text-foreground mt-1">2026</div>
+          <div className="text-2xl font-semibold text-foreground mt-1">9.57 / 10</div>
+          <div className="text-xs text-muted-foreground mt-1">Graduating 2027</div>
         </div>
       </div>
     </Section>

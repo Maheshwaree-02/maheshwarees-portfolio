@@ -4,19 +4,19 @@ import { Section } from "./Section";
 const projects = [
   {
     n: "01",
-    title: "KrishiMitra — Agricultural Assistance Platform",
+    title: "KrishiMitra — Smart Agriculture Management Platform",
     description:
-      "A web-based platform designed to provide farmers with digital support and information. Focused on creating an accessible user experience, structured content delivery, and responsive design principles.",
-    tech: ["HTML", "CSS", "JavaScript", "React"],
-    tag: "Web Platform",
+      "Role-based web application supporting Farmers, Workers, and Administrators. Built responsive interfaces with HTML, CSS, and JavaScript and implemented modules for farm management, inventory tracking, task assignment, and analytics reporting.",
+    tech: ["HTML", "CSS", "JavaScript", "DBMS"],
+    tag: "Web Platform · Apr–May 2025",
   },
   {
     n: "02",
-    title: "Consumer Sales & Demand Forecasting Analytics",
+    title: "Consumer Sales & Demand Forecasting Analytics Platform",
     description:
-      "An analytics solution for sales trend analysis, forecasting, KPI monitoring, and business reporting. Designed interactive dashboards and visualizations to support data-driven decision making.",
-    tech: ["Python", "SQL", "Power BI", "Excel"],
-    tag: "Data Analytics",
+      "Business analytics platform using Python, SQL, and Power BI. Designed SQL-based data processing workflows, KPI dashboards, and analytical reports to support data-driven decisions.",
+    tech: ["Python", "SQL", "Power BI"],
+    tag: "Data Analytics · Mar–Apr 2025",
   },
 ];
 
@@ -26,7 +26,7 @@ export function Projects() {
       id="projects"
       eyebrow="Selected work"
       title="Featured projects."
-      description="A focused selection of three projects that reflect how I think about products, content, and data."
+      description="A focused selection of projects that reflect how I think about products, content, and data."
     >
       <div className="space-y-5">
         {projects.map((p) => (

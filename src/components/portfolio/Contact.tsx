@@ -1,11 +1,17 @@
-import { Mail, Linkedin, Github, MapPin, ArrowRight } from "lucide-react";
+import { Mail, Linkedin, Github, MapPin, Phone, ArrowRight } from "lucide-react";
 
 const channels = [
   {
     icon: Mail,
     label: "Email",
-    value: "maheshwaree.talekar@example.com",
-    href: "mailto:maheshwaree.talekar@example.com",
+    value: "maheshwareetalekar@gmail.com",
+    href: "mailto:maheshwareetalekar@gmail.com",
+  },
+  {
+    icon: Phone,
+    label: "Phone",
+    value: "+91 91361 25647",
+    href: "tel:+919136125647",
   },
   {
     icon: Linkedin,
@@ -51,7 +57,7 @@ export function Contact() {
                 Happy to chat about projects, internships, or collaborations.
               </p>
               <a
-                href="mailto:maheshwaree.talekar@example.com"
+                href="mailto:maheshwareetalekar@gmail.com"
                 className="mt-8 inline-flex items-center gap-2 rounded-md bg-primary px-5 py-3 text-sm font-medium text-primary-foreground shadow-[var(--shadow-card)] hover:shadow-[var(--shadow-elevated)] transition"
               >
                 Send a message
