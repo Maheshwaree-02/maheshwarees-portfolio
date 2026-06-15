@@ -75,9 +75,9 @@ export function Hero() {
 
           <dl className="mt-16 grid grid-cols-3 gap-6 max-w-xl">
             {[
-              { k: "3+", v: "Featured Projects" },
-              { k: "15+", v: "Tools & Tech" },
-              { k: "2026", v: "Graduating" },
+              { k: "9.57", v: "CGPA / 10" },
+              { k: "2", v: "Featured Projects" },
+              { k: "3", v: "Certifications" },
             ].map((s) => (
               <div key={s.v}>
                 <dt className="text-2xl md:text-3xl font-semibold text-foreground">{s.k}</dt>

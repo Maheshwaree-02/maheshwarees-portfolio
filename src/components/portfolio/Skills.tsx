@@ -1,36 +1,51 @@
-import { Code2, Globe, BarChart3, Wrench, Users } from "lucide-react";
+import { Code2, Globe, BarChart3, Wrench, Users, Database, Brain } from "lucide-react";
 import { Section } from "./Section";
 
 const groups = [
   {
     icon: Code2,
-    title: "Programming",
+    title: "Programming Languages",
     items: ["Java", "Python", "SQL", "JavaScript"],
   },
   {
     icon: Globe,
-    title: "Web Development",
-    items: ["HTML", "CSS", "React", "Responsive Design"],
+    title: "Web Technologies",
+    items: ["HTML5", "CSS3", "Responsive Web Design"],
+  },
+  {
+    icon: Brain,
+    title: "Core Concepts",
+    items: [
+      "OOP",
+      "DBMS",
+      "Data Structures & Algorithms",
+      "Problem Solving",
+      "Software Development",
+    ],
+  },
+  {
+    icon: Database,
+    title: "Databases",
+    items: ["MySQL", "PostgreSQL"],
   },
   {
     icon: BarChart3,
-    title: "Analytics & Visualization",
-    items: ["Power BI", "Excel", "Data Analysis", "Dashboard Design"],
+    title: "Analytics & ML",
+    items: ["Power BI", "Streamlit", "Scikit-Learn", "TensorFlow"],
   },
   {
     icon: Wrench,
-    title: "Tools & Platforms",
-    items: ["Git", "GitHub", "Figma", "VS Code"],
+    title: "Tools",
+    items: ["Git", "GitHub", "VS Code"],
   },
   {
     icon: Users,
     title: "Professional Skills",
     items: [
-      "Content Organization",
-      "Documentation",
       "Team Collaboration",
-      "Problem Solving",
+      "Documentation",
       "Attention to Detail",
+      "Communication",
     ],
   },
 ];
